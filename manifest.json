@@ -1,0 +1,43 @@
+﻿{
+  "name": "微博-插件demo",
+  "version": "1.1",
+  "manifest_version": 2,
+  "description": "微博-插件demo",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js", "jquery.js"]
+  },
+  "page_action" :
+  {
+    "default_icon": {
+      "19": "images/favicon_48.png",
+      "38": "images/favicon_48.png"
+    },
+    "default_title" : "微博-弹框插件demo",
+    "default_popup": "popup.html"
+  },
+  "icons" : {
+    "16" :  "images/favicon_48.png",
+    "48" : "images/favicon_48.png",
+    "128" : "images/favicon_128.png"
+  },
+  "permissions" : [
+    "contextMenus",
+    "declarativeContent",
+    "tabs",
+    "activeTab",
+    "http://*/*",
+    "https://*/*",
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    "images/clip_button.png"
+  ],
+  "content_scripts":[  
+    {  
+      "matches": ["http://weibo.com/*", "http://new.yizhibo.com/*"],
+      "css": ["plugins.css"],  
+      "js": ["jquery.js", "content_script.js", "injectscript.js"]
+    }  
+  ]
+}

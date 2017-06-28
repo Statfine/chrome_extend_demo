@@ -1,0 +1,133 @@
+.jump_item {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 102px;
+  height: 30px;
+  margin-left: -51px;
+  margin-top: 40px;
+  background-position: -1px -72px;
+}
+
+.jump_img {
+	width: 102px;
+	height: 30px;
+}
+
+.jump_live {
+	position: absolute;
+	overflow: hidden;
+  top: 190px;
+  left: 50%;
+  margin-left: 464px;
+  z-index: 99;
+  width: 36px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.clip_text {
+  width: 36px;
+  height: 32px;
+  text-align: center;
+  position: relative;
+  line-height: 32px;
+  white-space: nowrap;
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.5);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: #24aefc;
+  color: #FFF;
+  font-size: 14px;
+}
+
+.clip_text .text {
+	position: absolute;
+  right: -36px;
+  top: 0;
+  width: 36px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  white-space: nowrap;
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.5);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: #02a2fc;
+  color: #FFF;
+  font-size: 12px;
+}
+
+.yi_state {
+  height: 21px;
+  width: 53px;
+  left: 48px;
+  top: 135px;
+  border: 1px solid #24aefc;
+  border-radius: 30px;
+  background: rgba(0,0,0,.2);
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 101;
+  cursor: pointer;
+}
+
+.xu_big .yi_state {
+  top: 40px;
+  left: 273px;
+}
+
+.rec_img .yi_state {
+  top: 40px;
+  left: 98px;
+}
+
+.box_con_img .yi_state {
+  top: 40px;
+  left: 70px;
+  width: 50px;
+}
+
+.welcome_img .yi_state {
+  top: 40px;
+  left: 100px;
+  width: 50px;
+}
+
+.hot_list .yi_state {
+  top: 40px;
+  left: 100px;
+  width: 50px;
+}
+
+.yi_state:hover {
+  background: #24aefc;
+}
+
+.yi_state_text {
+  line-height: 22px;
+  font-size: 11px;
+  color: #fff;
+}
+
+.yi_info_state {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 80px;
+  left: 50%;
+  margin-left: -40px;
+  top: 10px;
+  border-radius: 30px;
+  background: #24aefc;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 101;
+  cursor: pointer;
+  color: #fff;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style type="text/css">
+  *{margin:0;padding:0;}
+  body{color:#333;overflow: hidden;margin: 0px;padding:10px;background: white;font-size:12px;}
+  .popup { width: 180px; }
+  .submit-btn { width: 100%; height: 36px; line-height: 36px; border: 10px; cursor: pointer;
+    font-size: 14px; letter-spacing: 0px; color: rgb(255, 255, 255); font-weight: 500;
+    outline: none; box-sizing: border-box; transform: translate(0px, 0px);
+    border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    background-color: rgb(0, 129, 255); text-align: center; }
+  </style>
+</head>
+<body>
+<div class="popup">
+  <p>manifest中content_scripts的js 允许与弹框通信</p>
+  <button class="submit-btn">中文(data send)</button>
+</div>
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="popup_.js"></script>
+</html>
